@@ -1,0 +1,13 @@
+Prosesnya simple untuk push. Initialize Git -> add file -> commit -> push!
+
+untuk branching version. Checkout ke master -> PULL dari branch tempat kita checkout, 
+jika checkout ke master maka PULL dari branch master (BIASAKAN PULL SETELAH CHECKOUT, 
+UNTUK MENCEGAH GIT CONFLICT) -> merge dengan dev -> push!
+
+    Biasakan jika checkout dari master ke dev langsung pull ke branch tempat kita checkout, kalo dari master ke dev maka pull dari dev, begitupula sebaliknya jika dari dev ke master maka pull dari master branch. Pull itu bagaikan nafas para programmer team karena jika kamu bekerja secara team, perubahan code di repository bisa terjadi kapan saja dan kamu harus selalu update dengan perubahan tersebut, oleh karena itu membiasakan pull setelah checkout adalah hal yang baik. Gunanya apa? untuk mencegah conflict.
+
+Git Conflict adalah konflik yang terjadi akibat tidak sinkron file yang kamu buat dengan repository.
+
+As example, kamu checkout ke dev dan ada tulisan “Hello” di baris kedua. Lalu seseorang mengubah tulisan di baris kedua pada file tersebut, nama tulisannya adalah “Hello World” lalu melakukan push ke server. Setelah seseorang merubahnya kamu tidak melakukan pull, melainkan langsung merubah tulisan tersebut dengan tulisan “Hello Kiddy” jika kamu mengcommit file di laptop kamu lalu di push ke repository maka akan terjadi git conflict, karena folder .git yang ada di local kamu tidak dapat melakukan sinkronisasi tulisan dengan yang ada di repository kamu. Pada awalnya file tersebut ditandai A saat masih “Hello”, seseorang mengubahnya ditandai menjadi B saat berubah menjadi “Hello World” namun karena kamu belum mengcommit file tersebut lalu merubahnya tanpa melakukan pull, saat push server maka akan error, karena penanda file kamu saat itu masih A sedangkan file yang di repository sudah B.
+
+Mungkin itu saja yang dapat saya berikan, semoga bermanfaat!
