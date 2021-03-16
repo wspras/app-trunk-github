@@ -1,9 +1,9 @@
 <?php
-# $Id: freeware.php,v 1.12.2.3 2005/01/15 11:48:23 wspras Exp $
+# $Id: direct.php,v 1.12.2.3 2021/01/15 11:48:23 wspras Exp $
 //----------------------------------------------------------------------
 // wistekom.com
 //----------------------------------------------------------------------
-// Copyright (c) 2005 WSPRAS
+// Copyright (c) 2021 WSPRAS
 //----------------------------------------------------------------------
 // This program is under the terms of the GENERAL PUBLIC LICENSE (GPL)
 // as published by the SOFTWARE FOUNDATION. The GPL is available
@@ -38,4 +38,3 @@ if ( file_exists( ABSPATH . '/bases/config.app.php') ) {
 	die("There doesn't seem to be a <code>config.app.php</code> file. I need this before we can get started. Need more help? <a href='http://wspras.com/Editing_config-app.php'>We got it</a>. You can create a <code>config.app.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p>");
 
 }
-?>
