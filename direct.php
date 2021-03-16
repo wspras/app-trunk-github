@@ -1,7 +1,7 @@
 <?php
 # $Id: direct.php,v 1.12.2.3 2021/01/15 11:48:23 wspras Exp $
 //----------------------------------------------------------------------
-// wistekom.com
+// runaslogika.com
 //----------------------------------------------------------------------
 // Copyright (c) 2021 WSPRAS
 //----------------------------------------------------------------------
@@ -9,7 +9,7 @@
 // as published by the SOFTWARE FOUNDATION. The GPL is available
 // through the world-wide-web at http://www.wspras.com
 //----------------------------------------------------------------------
-// Authors: wspras@wistekom.com
+// Authors: wspras@runaslogika.com
 /** Define ABSPATH as this files directory */
 if ( !defined('_IN_SITE_WEB') )
 	define('_IN_SITE_WEB', TRUE);
